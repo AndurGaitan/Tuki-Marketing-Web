@@ -1,6 +1,10 @@
-body{
-    font-family: 'Roc Grotesk', 'Roc Grotesk Bold' sans-serif;
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
   }
+
   .home-container {
       display: flex;
       align-items: center;
@@ -151,7 +155,7 @@ body{
 
 @media (max-width: 480px) {
     .background-image {
-      background-image: url("../../assets/bg3small.png");
+      background-image: url("../../assets/bg3small.webp");
     }
     .titulo {
         font-size: 40px;
