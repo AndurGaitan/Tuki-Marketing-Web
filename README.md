@@ -1,64 +1,30 @@
-# Tuki - Agencia de Marketing
-## Inicialización del Proyecto
-### Pasos para Inicializar el Proyecto
+# Tuki - Agencia de Marketing 🚀
+## Descripción 🔎
+Tuki es una agencia de Marketing destacada en el mundo de la publicidad digital. Contamos con profesioanles que ayudarán a tu empresa a despegar en el mundo digital.
+
+## Librerias y Framewroks 📚
+A completar cuando finalice el proyecto.
+
+## Pasos para Inicializar el Proyecto
 1. **Clonar el Repositorio**
 
-2. **Cambia al directorio del proyecto clonado:**
+git clone https://github.com/Pabmoy25/proyectoHotel-FrontEnd.
 
-**cd tukiWeb**
+2. **Luego de clonar, seguir los siguientes pasos en el editor de código:**
 
-3. **Crea una nueva rama a partir de develop:**
+npm install //para instalar las dependencias
 
-**git checkout develop**
-
-**git pull origin develop**
-
-**git checkout -b feature/nueva-funcionalidad**
-
-4. **Iniciar el Servidor de Desarrollo**
-
-*npm run dev*
-
-## Tecnologías Utilizadas
-- **Frontend**: React, GSAP para animaciones
-- **Backend**: Node.js, Express
-- **Base de Datos**: MongoDB
-- **Despliegue**: Hostinger
-- **Control de Versiones**: Git, GitHub
-
-## Paleta de colores
-- **#235AE2**
-- **#E84855**
-- **#FF6494**
-- **#FBB91C**
-- **#FFFFFF**
+npm run dev //para comenzar a ejecutar el proyecto en modo desarrollo
 
 
-## Tipografias
-- **Quicksand - Poppins (opcion de "TT Rounds Neue")**
-- **Monserrat**
-- **Comfortaa**
+## Deploy del Proyecto
+A completar cuando finalice el proyecto.
 
-# Estrategia de Ramas
 
-## Ramas Principales
+## Github del Backend del Proyecto (Frontend y Backend)
+A completar cuando finalice el proyecto.
 
-### master
-- Rama principal de producción.
-- Todo el código aquí debe estar listo para despliegue.
 
-### develop
-- Rama de desarrollo donde se integran las nuevas características y correcciones antes de ser lanzadas a producción.
-
-### preview
-- Rama temporal donde se desarrollara la pagina en contrucción.
-
-## Ramas de Trabajo
-
-### feature/nueva-funcionalidad
-- Ramas creadas desde `develop`.
-- Utilizadas para desarrollar nuevas características.
-- Ejemplo:
-  git checkout develop
-  git pull origin develop
-  git checkout -b feature/nueva-funcionalidad
+## Autores 👨‍💻
+- Gaitán, Andrés Benjamin.
+- Toranzo Navarro, Julián.
