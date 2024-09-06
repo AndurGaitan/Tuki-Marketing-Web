@@ -33,6 +33,9 @@ function Home() {
         </li>
       </ul>
       </div>
+      <footer>
+        Footer
+      </footer>
     </div>
   )
 }
