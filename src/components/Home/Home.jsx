@@ -1,6 +1,7 @@
 import "./Home.css"
 import ilustracion1 from "../../assets/Ilustracion1.webp"
 import titulo from "../../assets/titulo.webp"
+import logoFooter from "../../assets/logofooter.png";
 
 
 function Home() {
@@ -33,9 +34,9 @@ function Home() {
         </li>
       </ul>
       </div>
-      <footer>
-        Footer
-      </footer>
+      <footer className="footer">
+  <img src={logoFooter} alt="Logo de la empresa" className="logo-footer" />
+</footer>
     </div>
   )
 }
