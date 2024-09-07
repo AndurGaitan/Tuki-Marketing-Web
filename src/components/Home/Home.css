@@ -29,7 +29,7 @@ html, body {
 
 
 .imgHome{
-  width: 50%;
+  width: 40%;
   padding: 0;
 }
 
@@ -212,3 +212,21 @@ html, body {
     height: auto;
   }
 }
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  padding: 18px;
+  margin-top: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.logo-footer {
+  width: 250px; /* Ajusta el tamaño según tu necesidad */
+  height: auto;
+}
+
+
+
