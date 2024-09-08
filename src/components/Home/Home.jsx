@@ -1,8 +1,8 @@
 import "./Home.css"
 import ilustracion1 from "../../assets/Ilustracion1.webp"
-//import Ilustracionchica from "../../assets/Ilustracionchica.png"
 import titulo from "../../assets/titulo.webp"
-import logoHorizontal from "../../assets/logoHorizontal.png"
+import logoFooter from "../../assets/logofooter.png";
+
 
 function Home() {
   return (
@@ -36,8 +36,8 @@ function Home() {
       </ul>
       </div>
       <footer className="footer">
-        <img src={logoHorizontal} alt="Logo Horizontal" className="logo-footer" />
-      </footer>
+  <img src={logoFooter} alt="Logo de la empresa" className="logo-footer" />
+</footer>
     </div>
     </div>
   )
