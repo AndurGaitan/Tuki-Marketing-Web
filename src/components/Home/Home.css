@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 
@@ -109,124 +110,6 @@ html, body {
   font-size: 2rem;
 }
 
-.footer {
-  width: 100%;
-  background-color: #fff;
-  padding: 10px 0;
-  margin-top: 20px;
-  text-align: center;
-  position: relative;
-  bottom: 0;
-}
-
-.logo-footer {
-  width: 400px;
-  height: auto;
-  margin: 12px;
-}
-
-@media (max-width: 1200px) {
-  .titulo {
-      font-size: 100px;
-      margin-bottom: -40px;
-  }
-
-
-  .subtitulo {
-      font-size: 60px;
-  }
-
-
-  .subtitulo1 {
-      font-size: 60px;
-  }
-
-
-  .imgTitulo{
-    width: 800;
-  }
-}
-
-
-@media (max-width: 992px) {
-  .titulo {
-      font-size: 80px;
-      margin-bottom: -30px;
-  }
-
-
-  .subtitulo {
-      font-size: 50px;
-  }
-
-
-  .subtitulo1 {
-      font-size: 50px;
-  }
-
-
-  .imgHome {
-      width: 800px;
-  }
-}
-
-
-@media (max-width: 768px) {
-  .titulo {
-      font-size: 60px;
-      margin-bottom: -20px;
-  }
-
-
-  .subtitulo {
-      font-size: 40px;
-  }
-
-
-  .subtitulo1 {
-      font-size: 40px;
-  }
-
-
-  .imgHome {
-      width: 600px;
-  }
-}
-
-
-@media (max-width: 480px) {
-  .background-image {
-    background-image: url("../../assets/bg3small.webp");
-  }
-  .titulo {
-      font-size: 40px;
-      margin-bottom: 0;
-  }
-
-
-  .subtitulo {
-      font-size: 30px;
-  }
-
-
-  .subtitulo1 {
-      font-size: 30px;
-  }
-
-
-  .imgHome {
-      width: 100%;
-      height: auto;
-      margin-top: 40%;
-  }
-
-
-  .imgTitulo{
-    width: 100%;
-    height: auto;
-  }
-}
-
 footer {
   width: 100%;
   background-color: #fff;
@@ -238,8 +121,306 @@ footer {
 }
 
 .logo-footer {
-  width: 250px; /* Ajusta el tamaño según tu necesidad */
+  width: 250px; 
   height: auto;
+}
+
+
+/* 1. Mobile - Pequeños dispositivos, max-width: 480px */
+@media (max-width: 480px) {
+  .background-image {
+    background-image: url("../../assets/bg3small.webp");  
+     
+  }
+  .imgHome {
+    width: 100%;
+    height: auto;
+    margin-top: 40%;
+  }
+
+  .imgTitulo {
+    width: 100%;
+    height: auto;
+  }
+
+  .social-menu ul li .icon {
+    font-size: 1.5rem;
+    line-height: 50px;
+  }
+
+  .social-menu ul li a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-footer {
+    width: 250px;
+  }
+}
+
+/*(430 x 932 px) */
+@media (min-width: 430px) and (max-width: 932px) {
+  .background-image {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .home-container {
+    padding: 0 10px; 
+    overflow-x: hidden; 
+  }
+
+  .imgHome {
+    width: 100%;
+    max-width: 100%; 
+  }
+
+  .imgTitulo {
+    width: 100%;
+    max-width: 100%;
+  }
+
+}
+
+/* 2. Tablet - max-width: 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .background-image {
+    background-image: url("../../assets/bg3small.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .imgHome {
+    width: 600px;
+  }
+
+  .imgTitulo {
+    width: 70%;
+  }
+
+  .social-menu ul li .icon {
+    font-size: 1.8rem;
+    line-height: 50px;
+  }
+
+  .social-menu ul li a {
+    width: 50px;
+    height: 50px;
+  }
+
+  .logo-footer {
+    width: 300px;
+  }
+}
+
+/* Resolución 600x1024 - Tablets en orientación vertical o dispositivos similares */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .background-image {
+    background-image: url("../../assets/bg3small.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .home-container {
+    padding: 0 20px; 
+    justify-content: center; 
+  }
+
+  .imgHome {
+    width: 70%; 
+    margin-top: 10%;
+  }
+
+  .imgTitulo {
+    width: 70%; 
+  }
+
+  .social-menu ul li .icon {
+    font-size: 1.8rem; 
+    line-height: 50px;
+  }
+
+  .social-menu ul li a {
+    width: 50px; 
+    height: 50px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+
+  .logo-footer {
+    width: 300px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 834px) {
+  .background-image {
+    background-image: url("../../assets/bg3small.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .home-container {
+    padding: 0 20px; 
+    justify-content: center; 
+  }
+
+  .imgHome {
+    width: 60%; 
+    height: auto;
+    margin-top: 5%; 
+  }
+
+  .imgTitulo {
+    width: 70%; 
+    height: auto;
+  }
+
+
+  .social-menu ul li .icon {
+    font-size: 30px; 
+    line-height: 50px;
+  }
+
+  .social-menu ul li a {
+    width: 50px; 
+    height: 50px;
+  }
+
+  .footer {
+    padding: 15px 0; 
+  }
+
+  .logo-footer {
+    width: 300px; 
+  }
+
+  .background-image {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 820px) and (max-width: 1180px) {
+  .background-image {
+    background-image: url("../../assets/bg3small.webp"); /* Imagen específica para esta resolución */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .imgHome {
+    width: 80%; 
+    margin-top: 40px; 
+  }
+
+  .imgTitulo {
+    width: 60%; 
+  }
+
+  .footer {
+    padding: 15px; 
+  }
+}
+/* Resolución 1024x768 - Tablets en orientación horizontal y monitores pequeños */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .background-image {
+    background-image: url("../../assets/bg3small.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .home-container {
+    padding: 0 20px; 
+    justify-content: center; 
+  }
+
+  .imgHome {
+    width: 70%; 
+    margin-top: 10%;
+  }
+
+  .imgTitulo {
+    width: 70%; 
+  }
+
+  .social-menu ul li .icon {
+    font-size: 2rem; 
+    line-height: 60px;
+  }
+
+  .social-menu ul li a {
+    width: 60px; 
+    height: 60px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+
+  .logo-footer {
+    width: 350px;
+  }
+}
+
+/* 3. Tablet horizontal y pequeños escritorios - max-width: 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .background-image {
+    background-image: url("../../assets/bg3small.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .imgHome {
+    width: 70%;
+    margin-top: 10%;
+  }
+
+  .imgTitulo {
+    width: 70%;
+  }
+
+  .social-menu ul li .icon {
+    font-size: 2rem;
+    line-height: 60px;
+  }
+
+  .social-menu ul li a {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logo-footer {
+    width: 350px;
+  }
+}
+
+/* 4. Escritorio grande - max-width: 1200px */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .background-image {
+    background-image: url("../../assets/bg3small.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .imgHome {
+    width: 40%;
+  }
+
+  .imgTitulo {
+    width: 50%;
+  }
+
+  .social-menu ul li .icon {
+    font-size: 40px;
+  }
+
+  .logo-footer {
+    width: 400px;
+  }
 }
 
 

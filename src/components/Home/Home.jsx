@@ -8,11 +8,8 @@ function Home() {
   return (
     <div className="home-container">
       <div className="background-image"></div>
-      <div className="content">
       <img className="imgHome" src={ilustracion1} alt="Ilustracion" />
-      <div className="content">
         <img className="imgTitulo" src={titulo} alt="tituloDeLaAplicacion" />
-      </div>
       <div className="social-menu">
       <ul>
         <li>
@@ -38,7 +35,6 @@ function Home() {
       <footer className="footer">
   <img src={logoFooter} alt="Logo de la empresa" className="logo-footer" />
 </footer>
-    </div>
     </div>
   )
 }
