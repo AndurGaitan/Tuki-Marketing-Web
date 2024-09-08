@@ -9,9 +9,7 @@ function Home() {
     <div className="home-container">
       <div className="background-image"></div>
       <img className="imgHome" src={ilustracion1} alt="Ilustracion" />
-      <div className="content">
         <img className="imgTitulo" src={titulo} alt="tituloDeLaAplicacion" />
-      </div>
       <div className="social-menu">
       <ul>
         <li>
