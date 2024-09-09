@@ -33,8 +33,8 @@ function Home() {
       </ul>
       </div>
       <footer className="footer">
-  <img src={logoFooter} alt="Logo de la empresa" className="logo-footer" />
-</footer>
+        <img src={logoFooter} alt="Logo de la empresa" className="logo-footer" />
+      </footer>
     </div>
   )
 }
